@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabrica da Moda</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Fábrica da Moda</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex" >
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-loja" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#promocoes" class="nav-link">
+                            <i class="bi bi-megaphone me-1"></i>
+                            Promoções da semana
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#roupas" class="nav-link">
+                            <i class="bi bi-person-arms-up me-1"></i>
+                            Roupas
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-loja">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./imagem/slide1 (1).jpg" alt="Foto de roupas">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./imagem/slide2.jpg" alt="Foto de sapatos">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./imagem/slide3.jpg" alt="Foto de roupa">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./imagem/INTERNO.jpg" class="d-block w-100 rounded" alt="Foto do espaço interno da loja">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                        <h2 class="section-title">Sobre <span class="text-colored">a Loja</span></h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse laborum inventore eligendi aliquam ut fuga est neque quam, optio vero corrupti pariatur ducimus illum omnis sint laboriosam earum, dolor numquam?
+                        </p>
+                        <h3 class="section-title">Sobre <span class="text-colored">o espaço</span></h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus similique animi aut sequi sunt aliquid, iusto laudantium maiores non vero quam harum expedita error, corrupti provident laboriosam dolor sed placeat.
+                        </p>
+                        <ul>
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="promocoes" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Promoções <span class="text-colored">da semana</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="imagem/KIT NIKE1.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-person-arms-up"></i>
+                            Kit Nike
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis fuga, cumque similique, libero quas vel aperiam ut ratione deleniti qui dolore harum iste, pariatur sit? Maxime obcaecati consequuntur a numquam?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagem/KIT flamengo.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-person-arms-up"></i>
+                            Kit Flamengo</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis fuga, cumque similique, libero quas vel aperiam ut ratione deleniti qui dolore harum iste, pariatur sit? Maxime obcaecati consequuntur a numquam?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagem/KIT Adidas.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-person-arms-up"></i>
+                            Kit Adidas</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis fuga, cumque similique, libero quas vel aperiam ut ratione deleniti qui dolore harum iste, pariatur sit? Maxime obcaecati consequuntur a numquam?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="roupas" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Roupas <span class="text-colored">e Tenis</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-roupas">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#homen" class="fw-bold text-start nav-link text-colored active">Roupas masculinas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#mulher" class="fw-bold text-start nav-link text-colored">Roupas femininas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#masculino" class="fw-bold text-start nav-link text-colored">Ténis masculinos</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#feminino" class="fw-bold text-start nav-link text-colored">Ténis femininos</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="homen">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/imagem/51NHUog1DCL._AC_SX679_.jpg" alt="roupa1">
+                                        <h5 class="text-colored fw-bold mt-2">Conjunto Moletom Masculino Blusa De Frio E Calça Masculina Estampada Opice</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/imagem/conjunto-moletom-masculino-basico-inverno-preto-s-641-423_500x.webp" alt="roupa2">
+                                        <h5 class="text-colored fw-bold">Conjunto Moletom Masculino Básico Inverno</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/imagem/51NHUog1DCL._AC_SX679_.jpg" alt="roupa3">
+                                        <h5 class="text-colored fw-bold mt-2">Conjunto Moletom Masculino Blusa De Frio E Calça Masculina Estampada Opice</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/imagem/51NHUog1DCL._AC_SX679_.jpg" alt="roupa3">
+                                        <h5 class="text-colored fw-bold mt-2">Conjunto Moletom Masculino Blusa De Frio E Calça Masculina Estampada Opice</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/imagem/51NHUog1DCL._AC_SX679_.jpg" alt="roupa3">
+                                        <h5 class="text-colored fw-bold mt-2">Conjunto Moletom Masculino Blusa De Frio E Calça Masculina Estampada Opice</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/imagem/51NHUog1DCL._AC_SX679_.jpg" alt="roupa3">
+                                        <h5 class="text-colored fw-bold mt-2">Conjunto Moletom Masculino Blusa De Frio E Calça Masculina Estampada Opice</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>  
+                            </div>
+                            <div class="tab-pane" id="mulher">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/imagem/mulher/dondoca_com_br-conjunto-alfaiataria-regata-e-saia-laco-preto-img-1199-595x595 (1).jpg" alt="mulher1">
+                                        <h5 class="text-colored fw-bold mt-2">CONJUNTO ALFAIATARIA REGATA E SAIA LAÇO PRETO</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/imagem/mulher/dondoca_com_br-img-6703-595x595.jpg" alt="mulher2">
+                                        <h5 class="text-colored fw-bold">CONJUNTO MOLETINHO MANGA LONGA RECORTES CARAMELO E NUDE</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/imagem/mulher/Sa8d3f88bf0f647eaa6d926506a6476e6C_700x.webp" alt="mulher3">
+                                        <h5 class="text-colored fw-bold">Conjunto Feminino Calça e Blusa Sweater</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>  
+                            </div>
+                            <div class="tab-pane" id="masculino">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/imagem/tenis M/D_NQ_NP_687985-CBT54877614576_042023-O.webp" alt="tenis">
+                                        <h5 class="text-colored fw-bold mt-2">Tênis Olympikus Eros/165 Branco 43448165-34</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/imagem/tenis M/51jnMV081mL._AC_SY695_.jpg" alt="tenis2">
+                                        <h5 class="text-colored fw-bold">Tênis Academia Confortável Macio Corrida Feminino Masculino</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/imagem/tenis M/D_NQ_NP_687985-CBT54877614576_042023-O.webp" alt="tenis3">
+                                        <h5 class="text-colored fw-bold">Tendência Da Moda Masculina Novos Sapatos Casuais</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>  
+                            </div>
+                            <div class="tab-pane" id="feminino">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/imagem/tenis F/71UZIFUcQVL._AC_SX679_.jpg" alt="tenisbranco">
+                                        <h5 class="text-colored fw-bold mt-2">Tênis Skechers GO WALK JOY - FRESH feminino</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/imagem/tenis F/228020421.webp" alt="tenis2cor">
+                                        <h5 class="text-colored fw-bold">Tênis Ramarim Branco Fly High 2280204-2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/imagem/tenis F/228020421.webp" alt="tenisrosa">
+                                        <h5 class="text-colored fw-bold">Tênis Fila Start Feminino - Verde Limão+Pink</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu Nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu E-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu Telefone(opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Seu Mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit"  class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Rede sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua teste Exemplo nª 40, Bairro Bootstrap - Recife - PE
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
